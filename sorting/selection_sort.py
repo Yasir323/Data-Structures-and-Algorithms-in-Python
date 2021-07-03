@@ -38,3 +38,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+You may see that the selection sort makes the same
+number of comparisons as the bubble sort and is
+therefore also O(n2). However, due to the reduction
+in the number of exchanges, the selection sort
+typically executes faster in benchmark studies.
+"""
